@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket       = "arun-roboshop-dev"
+    bucket       = "arun-roboshop-dev-env"
     key          = "roboshop-eks-sg"
     region       = "us-east-1"
     use_lockfile = true
