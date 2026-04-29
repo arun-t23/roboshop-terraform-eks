@@ -7,6 +7,10 @@ data "aws_ssm_parameter" "private_subnet_ids"{
     name    =  "/${var.project_name}/${var.environment}/private_subnet_ids"
 }
 
+data "aws_ssm_parameter" "public_subnet_ids"{
+    name    =  "/${var.project_name}/${var.environment}/public_subnet_ids"
+}
+
 data "aws_ssm_parameter" "eks_node_sg_id" {
   name = "/${var.project_name}/${var.environment}/eks_node_sg_id" 
 }

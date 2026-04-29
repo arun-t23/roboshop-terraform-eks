@@ -6,7 +6,7 @@ variable "environment" {
     default = "dev"
 }
 variable "zone_id" {
-    default =   "Z04727652LIZODD0J7LOV"
+    default =   "Z0353219CFMYFAAG2C9X"
 }
 variable "domain_name" {
     default =   "cloudquestdev.com"
